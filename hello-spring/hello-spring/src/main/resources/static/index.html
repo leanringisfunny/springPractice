@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div>정적 페이지의 index.html파일은 기본 페이지로 설정이 됩니다.</div>
+<a href="/hello"> (/hello로 이동) 컨트롤러에서 hello 컨트롤러가 있는지 찾아봅니다. 있다면 컨트롤러에서 리턴값으로 반환된 문자열을 통해
+뷰 리졸버가 템플릿 폴더에서 렌더링할 html파일을 찾아서 처리합니다.(스프링 부트 템플릿 엔진이 viewname(리턴값) 매핑 resourse:templates/+{viewname}
+    +.html)</a>
+</body>
+</html>
